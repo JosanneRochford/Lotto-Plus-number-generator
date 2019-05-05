@@ -1,0 +1,9 @@
+#This program generates 5 random numbers between 1 and 35 and one random number between 1 and 10.
+
+import random
+lotto_numbers = random.sample(range(1, 35), 5)     #Generates 5 random numbers
+
+
+power_ball = random.randint(1,10)                  #Generates 1 random number
+
+print( 'Your Lotto Plus Numbers are:' , lotto_numbers ,'P' ,power_ball)
